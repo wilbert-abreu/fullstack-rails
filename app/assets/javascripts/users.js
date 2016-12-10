@@ -66,7 +66,6 @@ document.addEventListener("turbolinks:load", function() {
   function stripeResponseHandler(status, response) {
     //Get the token from the response.
     var token = response.id;
-    console.log(token)
     //Inject the card token in a hidden field.
     append( theForm, '<input type="hidden" name="user[stripe_card_token]" value="'+ token +'">' );
     //Submit form to our Rails app.
