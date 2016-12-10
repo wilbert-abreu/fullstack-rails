@@ -12,7 +12,7 @@ var append = function( el, appendEl ) {
 document.addEventListener("turbolinks:load", function() {
   var doc = document,
       theForm = doc.querySelector('#pro_form'), 
-      submitBtn = doc.querySelector('#form-submit-btn');
+      submitBtn = doc.querySelector('#form-signup-btn');
   //Set Stripe public key.
   Stripe.setPublishableKey( doc.querySelector('meta[name="stripe-key"]').getAttribute('content') );
   
