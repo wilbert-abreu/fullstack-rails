@@ -37,6 +37,9 @@ gem 'stripe', '1.48.0'
 # Use Figaro for ENV variables
 gem 'figaro', '1.1.1'
 
+# use paperclip for image uplaod
+gem 'paperclip', '4.3.6'
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '3.0'
 # Use ActiveModel has_secure_password
